@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Button from "components/Button/Button";
-import ImageGallery from "components/ImageGallery/imageGallery";
+import ImageGallery from "components/ImageGallery/ImageGallery";
 import Loader from "components/Loader/Loader";
 import Modal from "components/Modal/Modal";
 
 import Api from 'components/fetchImages';
 import { AppDiv } from "./App.styled";
 import { ModalImg } from "./App.styled";
-import Searchbar from "components/Searchbar/SearchBar";
+import Searchbar from "components/Searchbar/Searchbar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
