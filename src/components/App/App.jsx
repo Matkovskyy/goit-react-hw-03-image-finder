@@ -15,7 +15,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export default class App extends Component {
-    state = {
+     state = {
         name: '',
         images: [],
         error: null,
