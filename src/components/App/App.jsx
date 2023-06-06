@@ -5,8 +5,9 @@ import Loader from "components/Loader/Loader";
 import Modal from "components/Modal/Modal";
 
 import Api from 'components/fetchImages';
-import { AppDiv } from "./App.styled";
-import { ModalImg } from "./App.styled";
+
+import {AppDiv, ModalImg} from 'components/App/App.styled' 
+
 import Searchbar from "components/Searchbar/Searchbar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

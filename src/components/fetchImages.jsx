@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const MY_KEY = '29395744-95b34d53a109031f8f7875032';
+const LIMIT = '12';
 axios.defaults.baseURL = 'https://pixabay.com/api';
 
 const Api = async (name, page) => {
